@@ -1,0 +1,44 @@
+body {
+    text-align: left;
+    color: #222222;
+    text-align: justify;
+    text-decoration: none;
+    text-indent: 50px;
+    line-height: 1.8;
+    font-size: small;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0 auto;
+}
+
+h3, h4, a {
+    font-size: large;
+    text-decoration: none;
+    color: #222222;
+}
+
+tbody {
+    font-size: small;
+}
+
+button {
+    color: #fff; /* цвет текста */
+    text-decoration: none; /* убирать подчёркивание у ссылок */
+    user-select: none; /* убирать выделение текста */
+    background: rgb(212,75,56); /* фон кнопки */
+    padding: .7em 1.5em; /* отступ от текста */
+    outline: none; /* убирать контур в Mozilla */
+    border: 0;
+    width: 210px;
+
+}
+button:hover { background: rgb(232,95,76); } /* при наведении курсора мышки */
+button:active { background: rgb(152,15,0); } /* при нажатии */
+
+input {
+    width: 200px;
+    font-size: 13px;
+    padding: 6px 0 4px 10px;
+    border: 1px solid #cecece;
+    background: #F6F6f6;
+    border-radius: 1px;
+}
